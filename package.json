@@ -1,8 +1,10 @@
 {
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "deep-equal": "^2.2.3",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {

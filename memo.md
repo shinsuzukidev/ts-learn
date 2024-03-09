@@ -32,6 +32,7 @@ $ tsc --init
 ```
 
 tsc コマンドにより \*.ts ファイルをコンパイルする。
+※オプションは詳細はtsconfig.jsonに記述
 
 ```bash
 $ tsc
@@ -50,4 +51,10 @@ npm から ts-node をインストール。次のように実行する。
 
 ```bash
 $ npx ts-node src/main.ts
+```
+
+また、次のコマンド(tsx)でも同じように実行できる。
+
+```bash
+$ npx tsx src/main.ts
 ```
