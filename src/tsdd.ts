@@ -239,13 +239,15 @@ console.log(reversed);
 // reversed[1] = 100;     // ok
 // reversed[1] = '100';   // ng
 
-function formatCmdLine(command: string | string[]) {
+function formatCmdLine(command: string | string[]): string {
   let line = '';
   if (typeof command === 'string') {
     line = command.trim();
   } else {
     line = command.join(' ').trim();
   }
+
+  return line;
 }
 
 function extend<T, U>(first: T, second: U): T & U {
